@@ -1,0 +1,11664 @@
+2022-04-17-17:09:32
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: ./market1501/
+data_train: Market1501
+data_test: Market1501
+reset: True
+epochs: 400
+test_every: 50
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+2*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: True
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step_320_380
+lr_decay: 60
+margin: 1.2
+re_rank: True
+random_erasing: True
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: 0
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-20-19:31:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-20-19:32:45
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-20-19:42:03
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-20-19:47:18
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-08:02:25
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-08:06:54
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-08:15:00
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-08:20:21
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:28:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:29:33
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:31:49
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:32:04
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:35:35
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:36:04
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:42:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:44:04
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-10:45:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-22-18:32:49
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:36:43
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:40:02
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:41:22
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:42:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:45:52
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:50:30
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:53:34
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:55:29
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:55:59
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-12:59:20
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-13:26:06
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-25-13:39:53
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-26-18:57:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-27-14:02:58
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-04-27-14:08:28
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-15-17:46:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-17-08:06:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-17-08:17:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-17-08:24:38
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-17-12:32:58
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-18-15:47:49
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-18-15:49:23
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-18-15:49:51
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-08:59:31
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-09:02:33
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-09:13:33
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-09:15:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-09:16:33
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-05-19-15:05:51
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-03-17:40:59
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-03-17:42:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:04:19
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:05:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:06:04
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:10:09
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:13:38
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:23:03
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:23:55
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:25:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:26:54
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:27:45
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:35:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:38:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:40:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:41:43
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-04-23:59:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:01:20
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:03:29
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:13:20
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:29:48
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:39:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:40:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:51:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:55:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-05-00:58:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-07-14:25:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-07-14:54:54
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-09:56:19
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:06:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:06:30
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:07:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:09:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:33:13
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:36:38
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:36:51
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:38:15
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-10:45:04
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-11:38:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-13:40:51
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-08-13:45:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-06-09-14:18:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-08-25-12:23:58
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-08-30-11:34:12
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-08-30-11:35:03
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-08-30-11:36:00
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-09-03-11:13:09
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-09-03-14:09:30
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-09-03-15:06:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2022-09-03-15:49:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:27:48
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:28:32
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:29:10
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:31:34
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:32:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:39:10
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:41:29
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:49:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:50:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:56:36
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-17:57:34
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:27:15
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:28:49
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:34:05
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:34:24
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:34:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:34:46
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:36:10
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:36:15
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:37:36
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:38:54
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:40:38
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:41:48
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:41:53
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:42:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-04-21-18:42:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-12-01-16:40:18
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-12-01-17:03:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-12-01-17:04:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-12-01-17:55:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2024-12-01-17:58:02
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:36:45
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:38:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:40:32
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:41:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:43:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:45:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-17:48:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-18:13:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-18:15:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-18:27:29
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-12-18:28:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-13-15:25:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-13-19:58:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-17:51:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-17:52:34
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:03:02
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:13:19
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:18:15
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:19:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:23:10
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:33:53
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:34:24
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:35:31
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:37:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:38:15
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:39:07
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:40:48
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:43:46
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:44:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:48:35
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:50:14
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:51:59
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:53:22
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:54:24
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-18:58:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:01:21
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:03:55
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:08:42
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:12:44
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:12:52
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:17:03
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:17:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:17:59
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:19:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: mgn
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:19:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: mgn
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:19:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: mgn
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:20:51
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:21:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:22:06
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-17-19:27:18
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-18-14:46:37
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:23:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:34:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:42:46
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:45:03
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:45:13
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:58:43
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-14:59:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:11:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:20:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:21:55
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:29:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:46:07
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:46:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:48:18
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-15:49:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-16:41:32
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-16:43:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-17:24:44
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-17:38:27
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-17:42:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-17:49:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-17:52:22
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:06:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:09:13
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:16:39
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:20:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:23:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:30:36
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:32:36
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:35:01
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-19-18:37:00
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-20-15:18:21
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-20-15:20:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-22-09:02:17
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-22-09:34:28
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-22-09:55:11
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-22-13:58:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-04-22-14:56:35
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:06:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:10:50
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:22:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:35:18
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:37:45
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:45:56
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:47:48
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:48:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:50:40
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:51:34
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:52:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:53:28
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-15:54:16
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-16:04:47
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-16:07:24
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-16:10:02
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-17-16:12:58
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-19-10:07:33
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-21-21:55:54
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-21-21:58:26
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-21-22:03:20
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-28-09:28:41
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-29-08:30:30
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-29-13:37:57
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
+2025-05-30-21:05:23
+
+nThread: 2
+cpu: False
+nGPU: 1
+datadir: Market-1501-v15.09.15
+data_train: Market1501
+data_test: Market1501
+reset: False
+epochs: 80
+test_every: 20
+batchid: 16
+batchimage: 4
+batchtest: 32
+test_only: False
+model: MGN
+loss: 1*CrossEntropy+1*Triplet
+act: relu
+pool: max
+feats: 256
+height: 384
+width: 128
+num_classes: 751
+lr: 0.0002
+optimizer: ADAM
+momentum: 0.9
+dampening: 0
+nesterov: False
+beta1: 0.9
+beta2: 0.999
+amsgrad: False
+epsilon: 1e-08
+gamma: 0.1
+weight_decay: 0.0005
+decay_type: step
+lr_decay: 60
+margin: 1.2
+re_rank: False
+random_erasing: False
+probability: 0.5
+savedir: saved_models
+outdir: out
+resume: -1
+save: adam_1
+load: 
+save_models: False
+pre_train: 
+
